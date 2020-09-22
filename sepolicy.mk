@@ -58,4 +58,5 @@ ifneq (,$(filter sdm845 sdm710, $(TARGET_BOARD_PLATFORM)))
     endif
 endif
 
--include device/revengeos/sepolicy/qcom/sepolicy.mk
+include device/lineage/sepolicy/qcom/sepolicy.mk
+include device/lineage/sepolicy/common/sepolicy.mk
